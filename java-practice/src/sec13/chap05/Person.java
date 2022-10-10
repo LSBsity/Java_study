@@ -38,9 +38,10 @@ public class Person {
      * @deprecated
      */
     public String introduce() {
-        return "안녕하세요, 저는 %s이고 %d세입니다."
+        return "안녕하세요, 저는 %s이고 %d세입니다"
                 .formatted(name, age + 1);
     }
+
     /**
      * 스스로를 만 나이와 함께 소개합니다.
      *
@@ -49,7 +50,7 @@ public class Person {
      * @since 2.0
      */
     public String introSelf() {
-        return "안녕하세요, 저는 %s이고 %d세입니다."
+        return "안녕하세요, 저는 %s이고 %d세입니다"
                 .formatted(name, age);
     }
 }
