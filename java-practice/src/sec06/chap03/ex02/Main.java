@@ -13,5 +13,6 @@ public class Main {
                 store1.getGift("전우치"),
                 store2.getGift("옥동자")
         };
+
     }
 }
