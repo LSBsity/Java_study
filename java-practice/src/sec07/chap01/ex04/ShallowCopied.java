@@ -1,4 +1,4 @@
-package sec07.ex04;
+package sec07.chap01.ex04;
 
 public class ShallowCopied implements Cloneable {
     String title;

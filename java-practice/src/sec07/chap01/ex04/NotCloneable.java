@@ -1,4 +1,4 @@
-package sec07.ex04;
+package sec07.chap01.ex04;
 
 public class NotCloneable {
     //  원시타입 필드들

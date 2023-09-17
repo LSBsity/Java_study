@@ -1,6 +1,4 @@
-package sec07.ex02;
-
-import java.util.Objects;
+package sec07.chap01.ex02;
 
 public class Click {
     int x;

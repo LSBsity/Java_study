@@ -1,4 +1,4 @@
-package sec07.ex01;
+package sec07.chap01.ex01;
 
 public class Button {
     public enum Mode {

@@ -1,4 +1,4 @@
-package sec07.ex02;
+package sec07.chap01.ex02;
 
 public class Main {
     public static void main(String[] args) {
