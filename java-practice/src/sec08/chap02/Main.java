@@ -1,10 +1,10 @@
-package sec08;
+package sec08.chap02;
 
 import sec07.chap04.*;
 
 import java.util.*;
 
-public class chap02 {
+public class Main {
     public static void main(String[] args) {
         //  ⭐️ 제네릭을 사용하여 타입 지정
         //  - 붙이지 않을 시 <Object>와 동일
