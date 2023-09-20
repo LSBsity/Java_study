@@ -19,13 +19,13 @@ public class Main {
         Printer printer4 = () -> {
             System.out.println("코드가 여러 줄일 때는");
             System.out.println("{ } 필요");
+
         };
 
 
         for (var p : new Printer[]{printer1, printer2, printer3, printer4}) {
             p.print();
         }
-
 
 
         Returner returner1 = () -> {
