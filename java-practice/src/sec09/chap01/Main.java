@@ -31,7 +31,7 @@ public class Main {
         Returner returner1 = () -> {
             return 1;
         };
-        Returner returner2 = () -> "반환 코드만 있을 시 { }와 return 생략가능";
+        Returner returner2 = () -> "반환 코드만 있을 시 {}와 return 생략가능";
 
         var returned1 = returner1.returnObj();
         var returned2 = returner2.returnObj();
