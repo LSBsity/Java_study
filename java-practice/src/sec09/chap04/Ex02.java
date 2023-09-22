@@ -14,7 +14,7 @@ public class Ex02 {
         Stream<Integer> fromArray = Arrays.stream(integerAry);
         var fromArray_Arr = fromArray.toArray();
 
-        //  ⚠️ 런타임 에러
+        //  ⚠️ 런타임 에러.
         //  - 스트림은 한 번 사용하면 끝 (흘러가버린 물)
         //var ifReuse = fromArray.toArray();
 
