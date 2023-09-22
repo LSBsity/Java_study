@@ -9,12 +9,12 @@ import java.util.stream.*;
 
 public class Ex02 {
     public static void main(String[] args) {
-        //  💡 배열로부터 생성.
+        //  💡 배열로부터 생성
         Integer[] integerAry = {1, 2, 3, 4, 5};
         Stream<Integer> fromArray = Arrays.stream(integerAry);
         var fromArray_Arr = fromArray.toArray();
 
-        //  ⚠️ 런타임 에러.
+        //  ⚠️ 런타임 에러
         //  - 스트림은 한 번 사용하면 끝 (흘러가버린 물)
         //var ifReuse = fromArray.toArray();
 
