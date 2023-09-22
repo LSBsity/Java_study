@@ -9,7 +9,7 @@ import java.util.stream.*;
 
 public class Ex02 {
     public static void main(String[] args) {
-        //  💡 배열로부터 생성
+        //  💡 배열로부터 생성.
         Integer[] integerAry = {1, 2, 3, 4, 5};
         Stream<Integer> fromArray = Arrays.stream(integerAry);
         var fromArray_Arr = fromArray.toArray();
