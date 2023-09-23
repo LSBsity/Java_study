@@ -6,22 +6,22 @@ public class Ex03 {
     public static void main(String[] args) {
         String DATA_PATH = "java-practice/src/sec12/chap03/data.bin";
 
-//        try (
-//                FileOutputStream fos = new FileOutputStream(DATA_PATH);
-//                DataOutputStream dos = new DataOutputStream(fos);
-//        ) {
-//
-//            //  💡 각 자료형의 값을 이진 데이터로 저장
-//            dos.writeBoolean(true);
-//            dos.writeInt(123);
-//            dos.writeDouble(3.14);
-//            dos.writeChar('A');
-//            dos.writeUTF("헬로헬로염"); // 💡 문자열을 UTF-8 형식으로
-//
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
-//
+        try (
+                FileOutputStream fos = new FileOutputStream(DATA_PATH);
+                DataOutputStream dos = new DataOutputStream(fos);
+        ) {
+
+            //  💡 각 자료형의 값을 이진 데이터로 저장
+            dos.writeBoolean(true);
+            dos.writeInt(123);
+            dos.writeDouble(3.14);
+            dos.writeChar('A');
+            dos.writeUTF("헬로헬로염"); // 💡 문자열을 UTF-8 형식으로
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
 
         boolean read1;
         int read2;
